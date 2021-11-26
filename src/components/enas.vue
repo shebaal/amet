@@ -93,8 +93,8 @@
       
 
       <div class="flex-1">
-        <img src="../assets/img/tail2.png" />
-         <a class="text-red-400 " href="https://tailwind-converter.netlify.app/" > https://tailwind-converter.netlify.app/</a>
+        <img src="../assets/img/p&c.png" />
+         <a class="text-teal-400 " href="https://tailwind-converter.netlify.app/" > https://tailwind-converter.netlify.app/</a>
       </div>
     </div>
 
@@ -199,13 +199,13 @@
             Installing Tailwind CSS can be a slightly different process
              depending on what other frameworks/tools you’re using, so we’ve put together a bunch of guides that cover popular setups.
        so vist the site 
-       <a class="text-red-400 " href="https://tailwindcss.com/docs/installation" > https://tailwindcss.com/docs/installation</a>
+       <a class="text-teal-400 " href="https://tailwindcss.com/docs/installation" > https://tailwindcss.com/docs/installation</a>
        and chose frameworks/tools you’re using. </p> 
        
       </div>
 
       <div class="flex-1">
-        <img src="../assets/img/tail2.png" />
+        <img src="../assets/img/in.png" />
       </div>
     </div>
 
