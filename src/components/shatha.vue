@@ -2,4 +2,5 @@
     <div>
         shatha
     </div>
+    
 </template>
