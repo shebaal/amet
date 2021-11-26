@@ -121,7 +121,7 @@
 
 
 
-    <div class="c relative">
+     <div class="c relative">
       <div class="bg-white rounded-full w-72 h-72 relative shadow-md">
         <p class="top-1/2 left-1/2 absolute tran font-Montserrat-Bold text-lg">
           Tailwind & UI
@@ -129,11 +129,16 @@
       </div>
 
       <div
-        class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3 absolute"
+        class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
+        md:block  md:w-28 md:h-28
+          hidden"
       ></div>
 
       <div
         class="
+        sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-24
@@ -147,6 +152,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-16
@@ -160,6 +168,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-24
@@ -173,6 +184,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-16
@@ -186,27 +200,18 @@
     </div>
 
 
-<div class="    
+<div class="    c
         w-full
         my-12
         p-12
         bg-white
         shadow-sm
-        rounded">
-    <p class="text-xl font-extrabold text-center">Colors</p>
-    <img src="../assets/img/swatches-04.png" />
+        rounded"
+        v-for="n in section2" :key="n">
+    <p class="text-xl font-extrabold text-center">{{n.title}}</p>
+    <img :src="n.images" />
 </div>
 
-<div class="c    
-        w-full
-        my-12
-        p-12
-        bg-white
-        shadow-sm
-        rounded">
-    <p class="text-xl font-extrabold text-center my-4">How to?</p>
-    <img src="../assets/img/ui-design-mistakes-7.jpg" />
-</div>
 
     
           <div
@@ -259,6 +264,8 @@
 
 
 <script>
+import img1 from "../assets/img/swatches-04.png"
+import img2 from "../assets/img/ui-design-mistakes-7.jpg"
 
 export default {
     data(){
@@ -273,6 +280,11 @@ export default {
              {title:'Width scale',
                 para:' By default, Tailwind’s width scale is a combination of the default spacing scale as well as some additional values specific to widths.'},
            
+           ],
+           section2:[
+               {title:'Colors', images:img1},
+               {title:'How to?', images:img2},
+               
            ]
         }
     }
