@@ -18,11 +18,16 @@
       </div>
 
       <div
-        class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3 absolute"
+        class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
+        md:block  md:w-28 md:h-28
+          hidden"
       ></div>
 
       <div
         class="
+        sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-24
@@ -36,6 +41,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-16
@@ -49,6 +57,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-24
@@ -62,6 +73,9 @@
 
       <div
         class="
+           sm:block
+        md:block
+          hidden
           bg-white
           rounded-full
           w-16
