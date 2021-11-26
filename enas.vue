@@ -315,9 +315,7 @@
         <a class="text-red-400 " href="https://tailwindui.com/#components" > https://tailwindui.com/#components</a>
       </div>
 
-      <div class="flex-1">
-        <img src="../assets/img/tail1.png" class="rounded-lg shadow-lg " />
-      </div>
+     
     </div>
 
 
