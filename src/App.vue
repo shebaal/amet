@@ -56,6 +56,7 @@ export default {
     {
       this.open = !this.open
     }
+
   }
  
 

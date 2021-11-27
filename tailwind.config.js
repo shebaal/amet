@@ -20,9 +20,9 @@ module.exports = {
         'Montserrat-Bold':'Montserrat-Bold',
         'Montserrat-Regular':'Montserrat-Regular',
       },
-      margin:{
-        md: '16px',
-      }
+      // margin:{
+      //   md: '16px',
+      // }
     },
   },
   variants: {
