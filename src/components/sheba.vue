@@ -10,6 +10,118 @@
       bg-primary-100
     "
   >
+
+    <div class="c relative">
+      <div class="bg-white rounded-full w-72 h-72 relative shadow-md">
+        <p class="top-1/2 left-1/2 absolute tran font-Montserrat-Bold text-lg">
+          Flex & Grid
+        </p>
+      </div>
+
+      <div
+        class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
+        md:block  md:w-28 md:h-28
+          hidden"
+      ></div>
+
+      <div
+        class="
+        sm:block
+        md:block
+          hidden
+          bg-white
+          rounded-full
+          w-24
+          h-24
+          top-28
+          left-1/4
+          absolute
+          shadow-md
+        "
+      ></div>
+
+      <div
+        class="
+           sm:block
+        md:block
+          hidden
+          bg-white
+          rounded-full
+          w-16
+          h-16
+          top-32
+          left-28
+          absolute
+          shadow-md
+        "
+      ></div>
+
+      <div
+        class="
+           sm:block
+        md:block
+          hidden
+          bg-white
+          rounded-full
+          w-24
+          h-24
+          top-28
+          right-1/4
+          absolute
+          shadow-md
+        "
+      ></div>
+
+      <div
+        class="
+           sm:block
+        md:block
+          hidden
+          bg-white
+          rounded-full
+          w-16
+          h-16
+          top-32
+          right-28
+          absolute
+          shadow-md
+        "
+      ></div>
+    </div>
+
+
+        <div
+      class="
+        c
+        w-full
+        my-12
+        p-12
+        bg-white
+        shadow-sm
+        rounded
+        flex
+        lg:flex-row
+        md:flex-col
+        flex-col
+        sm:flex-col
+      "
+      v-for="i in flGrid" :key="i"
+    >
+      <div class="flex-1" >
+        <div class="text-xl py-4">{{i.title}}</div>
+        <p class="text-base font-Montserrat-Regular">
+            {{i.para}}
+        
+        </p>
+      </div>
+
+      <div class="flex-1">
+        <img :src="i.images" class="rounded-lg shadow-lg " />
+      </div>
+    </div>
+
+
+
     <div class="c relative">
       <div class="bg-white rounded-full w-72 h-72 relative shadow-md">
         <p class="top-1/2 left-1/2 absolute tran font-Montserrat-Bold text-lg">
@@ -272,6 +384,9 @@ import img4 from "../assets/img/tail4.png"
 import img5 from "../assets/img/tail5.png"
 import img6 from "../assets/img/tail6.png"
 
+import flex from "../assets/img/flex.png"
+import grid from "../assets/img/grid.png"
+
 
 
 export default {
@@ -296,6 +411,15 @@ export default {
                {title:'Colors', images:img1},
                {title:'How to?', images:img2},
                
+           ],
+           flGrid:[
+              {title:'Grid',
+                para:'Utilities for specifying the columns in a grid layout.',
+                images:grid},
+             {title:'flex',
+                para: 'Utilities for controlling the direction of flex items.',
+                images:flex},
+          
            ]
         }
     }
