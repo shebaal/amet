@@ -18,7 +18,7 @@
         </p>
       </div>
 
-      <div
+      <!-- <div
         class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
         md:block  md:w-28 md:h-28
           hidden"
@@ -86,7 +86,7 @@
           absolute
           shadow-md
         "
-      ></div>
+      ></div> -->
     </div>
 
 
@@ -99,11 +99,11 @@
         bg-white
         shadow-sm
         rounded
-        flex
-        lg:flex-row
+        grid
+        lg:grid-templet-row
         md:flex-col
         flex-col
-        sm:flex-col
+        sm:flex-col 
       "
       v-for="i in flGrid" :key="i"
     >
@@ -129,13 +129,13 @@
         </p>
       </div>
 
-      <div
+      <!-- <div
         class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
         md:block  md:w-28 md:h-28
           hidden"
-      ></div>
+      ></div> -->
 
-      <div
+      <!-- <div
         class="
         sm:block
         md:block
@@ -197,7 +197,7 @@
           absolute
           shadow-md
         "
-      ></div>
+      ></div> -->
     </div>
 
     <div
@@ -240,7 +240,7 @@
         </p>
       </div>
 
-      <div
+      <!-- <div
         class="bg-primary-100 rounded-full w-28 h-28 top-1/3 left-1/3  absolute    sm:block
         md:block  md:w-28 md:h-28
           hidden"
@@ -308,7 +308,7 @@
           absolute
           shadow-md
         "
-      ></div>
+      ></div> -->
     </div>
 
 

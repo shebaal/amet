@@ -14,7 +14,7 @@
     <div class="c relative">
       <div class="bg-white rounded-full w-72 h-72 relative shadow-md">
         <p class="top-1/2 left-1/2 absolute tran font-Montserrat-Bold text-lg text-center">
-         THE CONS & PROS
+         taillwind
         </p>
       </div>
 
@@ -95,22 +95,7 @@
 
       <div class="flex-1">
         <img src="../assets/img/pANDc.png" />
-               <br> <br>
-<p>
-  Here is a websites that help you to use Tailwind css easier :
-  </p>
-     
-         <a class="text-primary-600 " href="https://tailwind-converter.netlify.app/" >1. https://tailwind-converter.netlify.app/</a>
-         <br>
-         <p>
-  This websit convert css properties to tailwind css syntact.
-  </p>
-     <br>
-     <a class="text-primary-600 " href="https://tailwindcomponents.com/cheatsheet/" >2. https://tailwindcomponents.com/cheatsheet/</a>
-     <p>
-   This websit  show you all tailwind css properties 
-  </p>
-     <br>
+         <a class="text-primary-600 " href="https://tailwind-converter.netlify.app/" > https://tailwind-converter.netlify.app/</a>
       </div>
     </div>
 
@@ -221,7 +206,7 @@
       </div>
 
       <div class="flex-1">
-      <img src="../assets/img/tailw.png" />
+     <!--   <img src="../assets/img/tail.png" />-->
       </div>
     </div>
 
@@ -333,27 +318,7 @@
 
      
     </div>
-<!-- This example requires Tailwind CSS v2.0+
-<div class="bg-white">
-  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-    <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-      <span class="block">Ready to dive in?</span>
-      <span class="block text-red-300">Start your free trial today.</span>
-    </h2>
-    <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-      <div class="inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700">
-          Get started
-        </a>
-      </div>
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-red-50">
-          Learn more
-        </a>
-      </div>
-    </div>
-  </div>
-</div> -->
+
 
        <div>
     </div>
