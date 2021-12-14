@@ -14,7 +14,7 @@
     <div class="c relative">
       <div class="bg-white rounded-full w-72 h-72 relative shadow-md">
         <p class="top-1/2 left-1/2 absolute tran font-Montserrat-Bold text-lg">
-          Flex & Grid
+          Flexx & Gridd
         </p>
       </div>
 
